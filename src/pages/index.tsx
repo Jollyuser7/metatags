@@ -21,7 +21,9 @@ const Home: NextPage = () => {
       <Header />
       <main className="ui container">
         
-       <div className='ui three column grid'></div>
+       <div className='ui three column grid'>
+         
+       </div>
         {/* <section className="ui tall stacked segment">
           <h1 className="ui center aligned header">
             Online creator meta tags

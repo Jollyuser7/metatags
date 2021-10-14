@@ -4,7 +4,7 @@ interface IUsers {
 }
 
 export default function Users(props: any){
-  console.log(props);
+  // console.log(props);
   return (
     <>
       <h1>Users</h1>
