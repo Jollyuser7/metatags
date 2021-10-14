@@ -1,4 +1,4 @@
-import Input from "../Input"
+
 
 export default function Header() {
   return(
@@ -15,7 +15,7 @@ export default function Header() {
               <a href="#" className="item">Contact</a>
             </div>
           </div>
-          <Input />
+          {/* <Input /> */}
         </div>
       </header>
       <style jsx>{`
