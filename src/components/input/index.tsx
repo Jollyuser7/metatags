@@ -1,14 +1,14 @@
+import 'semantic-ui-css/semantic.min.css';
+
 export default function Input() {
   return (
     <>
-    <input type="text" className="input" id="metatitle"/>
-    <style jsx>{`
-      input{
-        width: 100%;
-        height: 50px
-      }
-    `}</style>
+      <div className='ui container'>
+        <div className="ui fluid action large input">
+          <input type="text" placeholder="Search..." />
+          <div className="ui button">Ок</div>
+        </div>
+      </div>
     </>
   )
-  
 }
