@@ -22,7 +22,6 @@ export default function Header() {
         .header-block {
           min-height: auto
         }
-      
       `}</style>
     </>
   )
