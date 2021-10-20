@@ -10,7 +10,6 @@ import SearchChannel from '../components/SearchChannel';
 const Home: NextPage = () => {
   return (
     <>
-    
 
       <div className="ui one column stackable grid">
         

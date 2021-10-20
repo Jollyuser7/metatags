@@ -11,10 +11,12 @@ export default function Parser(props:IParser) {
 
   return (
     <>
-      <div className="ui input">
-        <input type="text" onChange={handelChangeInput} value={inputValue} />
+      <div className='ui container'>
+        <div className="ui fluid action large input">
+          <input type="text" onChange={handelChangeInput} value={inputValue} />
+          <div className="ui button">Ок</div>
+        </div>
       </div>
-      <div>{inputValue}</div>
     </>
   );
 

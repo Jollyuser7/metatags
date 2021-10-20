@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TextArea from '../components/Textarea';
-import Parser from '../components/Parser';
 
 interface IChildren {
   title?: string,
@@ -27,8 +26,6 @@ export default function Layout({title, children}: IChildren) {
         
         <aside className="six wide column">
           <div className="ui small header">METADATA</div>
-
-          <Parser url="http://site.ru/" name="FrontEnd" />
 
           <TextArea />
         </aside>

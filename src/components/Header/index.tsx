@@ -1,4 +1,4 @@
-import Input from "../Input"
+import Parser from '../Parser';
 
 export default function Header() {
   return(
@@ -15,7 +15,7 @@ export default function Header() {
               <a href="#" className="item">Contact</a>
             </div>
           </div>
-          <Input />
+          <Parser url="domain.ru" name="frontend" />
         </div>
       </header>
       <style jsx>{`
