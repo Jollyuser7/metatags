@@ -10,7 +10,7 @@ import SearchChannel from '../components/SearchChannel';
 const Home: NextPage = () => {
   return (
     <>
-
+      <Layout>
       <div className="ui one column stackable grid">
         
         <section className="column">
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         </section>
 
       </div>
-    
+    </Layout>
     </>
   )
 }
